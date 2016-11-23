@@ -1,0 +1,10 @@
+{
+  "name": "simple_editor",
+  "version": "1.0.0",
+  "description": "简单的编辑器组件，有文本框的和文本域的",
+  "author": "jfbai",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}

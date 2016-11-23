@@ -1,0 +1,10 @@
+{
+  "name": "top_progress",
+  "version": "1.0.0",
+  "description": "全局的进度条组件，会在页面顶部显示一个细条形的进度条，以及顶部右侧有一个小圈圈",
+  "author": "jfbai",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}

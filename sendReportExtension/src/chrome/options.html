@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>配置</title>
+    <style>
+        body {
+            padding: 10px;
+        }
+        .form-group {
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-group">
+        <label>图片类型：</label>
+        <input type="radio" name="mimeType" id="mimeType1" value="image/png"> PNG
+        <input type="radio" name="mimeType" id="mimeType2" value="image/jpeg" checked> JPG
+    </div>
+    <div class="form-group">
+        <label>图片质量：</label>
+        <input type="number" name="quality" id="quality" step="0.1" value="0.8" min="0.1" max="1">
+    </div>
+    <div class="form-group">
+        <label>图片名称：</label>
+        <input name="filename" id="filename" value="集群运维报告">
+    </div>
+    <div class="form-group">
+        <button id="save">保存</button>
+        <span id="status"></span>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+</html>

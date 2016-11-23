@@ -1,0 +1,10 @@
+{
+  "name": "top_alert",
+  "version": "1.0.0",
+  "description": "全局的消息提醒组件，会在顶部往下付出一个消息框，3秒后消失，或者点击关闭消失",
+  "author": "jfbai",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}

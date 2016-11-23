@@ -1,0 +1,10 @@
+{
+  "name": "floatbar",
+  "version": "1.0.0",
+  "description": "右侧浮动菜单组件，目前有发送报告以及回到顶部两个菜单",
+  "author": "jfbai",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}

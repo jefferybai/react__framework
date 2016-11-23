@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>OITS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <button onclick="btnOnClick()">截图</button>
+    <header style="height: 50px">header</header>
+    <section style="height: 400px">section1</section>
+    <section style="height: 400px">section2</section>
+    <section style="height: 400px">section3</section>
+    <section style="height: 400px">section4</section>
+    <section style="height: 400px">section5</section>
+    <section style="height: 400px">section6</section>
+    <footer style="height: 50px">footer</footer>
+
+    <script>
+        function btnOnClick() {
+            postMessage({
+                extensionId: 'iejbbakpjepnegplaaojckdnnfgbnpgg',
+                cmd: 'COMMAND_SEND_REPORT',
+                data: {
+                    mailSubject: "集群运维报告",
+                    clusterCode: "clusterCode",
+                    PARA_TOKEN: "PARA_TOKEN"
+                }
+            }, "*")
+        }
+    </script>
+</body>
+
+</html>

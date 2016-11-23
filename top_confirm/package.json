@@ -1,0 +1,10 @@
+{
+  "name": "top_confirm",
+  "version": "1.0.0",
+  "description": "全局的确认框，替代浏览器的confirm方法",
+  "author": "jfbai",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  }
+}

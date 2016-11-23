@@ -1,0 +1,34 @@
+{
+  "name": "paraReportHelper",
+  "author": "Kevin Won",
+  "description": "这是一个chrome扩展程序。提供了浏览器端可调用的api，能截屏整个页面，或生成PDF文件。",
+  "manifest_version": 2,
+  "version": "1.1.1",
+  "homepage_url": "https://oits.paratera.com/report/chrome_extension/",
+  "update_url": "https://oits.paratera.com/report/chrome_extension/updates.xml",
+  "icons": { "128": "logo.png" },
+  "background": {
+    "scripts": ["background.js", "jspdf.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "logo.png",
+    "default_title": "paraReportHelper插件可用"
+  },
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.paratera.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

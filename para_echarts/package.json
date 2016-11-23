@@ -1,0 +1,10 @@
+{
+  "name": "para_echarts",
+  "version": "1.0.0",
+  "description": "echarts的react封装组件，提供常用场景下的一些图表组件的快捷调用",
+  "author": "jfbai",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}

@@ -1,0 +1,40 @@
+export const EXTENSION_ID = 'iejbbakpjepnegplaaojckdnnfgbnpgg'
+
+//与背景页连接初始化
+export const COMMAND_CONNECT_BG_INIT = 'COMMAND_CONNECT_BG_INIT'
+
+//与背景页连接完成
+export const COMMAND_CONNECT_BG_INIT_DONE = 'COMMAND_CONNECT_BG_INIT_DONE'
+
+//要求滚动条滚动到下一页
+export const COMMAND_SCROLLNEXT = 'COMMAND_SCROLLNEXT'
+
+//滚动条滚动到下一页完毕
+export const COMMAND_SCROLLNEXT_DONE = 'COMMAND_SCROLLNEXT_DONE'
+
+//滚动条已滚动到最底部
+export const COMMAND_SCROLLDONE_COMPLETE = 'COMMAND_SCROLLDONE_COMPLETE'
+
+//发起发送报告命令
+export const COMMAND_SHOT_SCREEN = 'COMMAND_SHOT_SCREEN'
+
+//发送报告已开始
+export const COMMAND_SHOT_SCREEN_STARTED = 'COMMAND_SHOT_SCREEN_STARTED'
+
+//发送报告失败
+export const COMMAND_SHOT_SCREEN_FAIL = 'COMMAND_SHOT_SCREEN_FAIL'
+
+//发送报告成功
+export const COMMAND_SHOT_SCREEN_SUCCESS = 'COMMAND_SHOT_SCREEN_SUCCESS'
+
+//发起保存PDF命令
+export const COMMAND_SAVE_PDF = 'COMMAND_SAVE_PDF'
+
+//保存PDF已开始
+export const COMMAND_SAVE_PDF_STARTED = 'COMMAND_SAVE_PDF_STARTED'
+
+//保存PDF失败
+export const COMMAND_SAVE_PDF_FAIL = 'COMMAND_SAVE_PDF_FAIL'
+
+//保存PDF成功
+export const COMMAND_SAVE_PDF_SUCCESS = 'COMMAND_SAVE_PDF_SUCCESS'

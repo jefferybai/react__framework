@@ -1,0 +1,10 @@
+{
+  "name": "filter_list_selector",
+  "version": "1.0.0",
+  "description": "过滤列表单选框",
+  "author": "jfbai",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
